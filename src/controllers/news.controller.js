@@ -29,4 +29,4 @@ const findAll = (req, res) => {
     res.send(news);
 };
 
-export default { create, findAll };
+export { create, findAll };
