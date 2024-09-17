@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 const NewsSchema = new mongoose.Schema({
     title: {
         type: String,
-        require: true
+        require: true,
     },
     text: {
         type: String,
